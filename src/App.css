@@ -3,7 +3,8 @@
   width: 60px;
 }
 .container-fluid {
-  background: rgba(44, 44, 155, 0.911);
+  background: rgba(44, 44, 155, 0.911); /* Cambiar esto para el dark mode */
+  /*   background: rgba(245, 245, 245, 0.596); */
 }
 .sinpadding {
   padding-top: 0px;
@@ -14,9 +15,114 @@
 .form-control {
   width: 500%;
 }
-.tarjeta{
- width: 150px;
+.tarjeta {
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
 }
-.nombre{
-  font-size: 15px;
+.nombre {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 15px;
+
+  color: rgba(245, 245, 245, 0.808);
+}
+.precio {
+  margin: center;
+  font-size: 1.3rem;
+  height: auto;
+  padding-top: 15px;
+
+  color: whitesmoke;
+}
+.padding {
+  padding: 0px;
+}
+.barrra {
+  margin: -9px;
+}
+
+.busqueda {
+  width: 500px;
+}
+.padding20 {
+  padding-top: 20px;
+}
+.hrtransparent {
+  margin: auto;
+  color: whitesmoke;
+  padding-top: 10px;
+}
+.span {
+  height: auto;
+}
+
+.compra {
+  width: 90%;
+
+  margin: auto;
+  margin-bottom: 5px;
+
+  height: 35px;
+  border-radius: 10px;
+  border: 0.3px none;
+  color: whitesmoke;
+  background: rgb(90, 34, 145);
+  transition: all 0.5s;
+}
+.compra:hover {
+  color: yellow;
+  background: rgb(98, 34, 145);
+}
+.agregar:hover {
+  color: yellow;
+  background: rgb(98, 34, 145);
+}
+.agregar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.56s;
+  margin-bottom: 5px;
+  height: 60px;
+
+  border-radius: 10px;
+  border: 0.3px none;
+  color: whitesmoke;
+  background: rgb(90, 34, 145);
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background: url("./assets/Footer.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+.foter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 25px;
+  margin-bottom: 18px;
+}
+.boxFooter {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  align-items: center;
+  height: -webkit-fill-available;
+  width: 100%;
+}
+.boxFooter p {
+  color: rgba(245, 245, 245, 0.767);
+}
+.aSinborder {
+  border: none;
+  text-decoration: none;
 }

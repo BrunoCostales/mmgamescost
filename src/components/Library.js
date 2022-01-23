@@ -1,21 +1,13 @@
 import React from "react";
-import faceUncharted from "../assets/faceUncharted.jpg";
-function Librar() {
+
+import Libro from "./Libro";
+function Library() {
+  const uncharted = "Uncharted 4 El final del Ladron";
   return (
-    
-      <div>
-      
-            <img src={faceUncharted} className="tarjeta" alt="..." />
-        
-        
-              <h5 className="nombre">Black Myth : Wukong</h5>
-            
-          
-        
-        <hr/>
-      </div>
-    
+    <div>
+      <Libro />
+    </div>
   );
 }
 
-export default Librar;
+export default Library;
