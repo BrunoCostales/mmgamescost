@@ -126,6 +126,10 @@
   border: none;
   text-decoration: none;
 }
-.dropdownlight{
+.dropdownlight {
   color: whitesmoke;
+}
+.dropfull {
+  width: 100%;
+  background-color: #212529;
 }
